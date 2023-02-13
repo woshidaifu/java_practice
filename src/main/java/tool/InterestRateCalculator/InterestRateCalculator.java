@@ -1,5 +1,8 @@
 package tool.InterestRateCalculator;
 
+/**
+ * Gernerated by ChatGPT,hhhhhh
+ */
 public class InterestRateCalculator {
     public static double calculateMonthlyInterestRate(double principal, int period, double monthlyRepayment) {
         double low = 0.0;
