@@ -1,6 +1,5 @@
 package tool.socket;
 
-import javax.annotation.Resource;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;

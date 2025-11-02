@@ -1,7 +1,5 @@
 package tool.socket;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 public class SocketMain {
     public static void main(String[] args) {
         SocketSever socketSever = new SocketSever();

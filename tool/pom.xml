@@ -20,6 +20,8 @@
         <servlet-api.version>3.1.0</servlet-api.version>
         <commons-codec.version>1.13</commons-codec.version>
         <jaxws.version>2.3.7</jaxws.version>
+        <httpclient.version>4.5.13</httpclient.version>
+        <jackson.version>2.13.4</jackson.version>
     </properties>
 
     <dependencies>
@@ -44,7 +46,7 @@
             <version>${commons-codec.version}</version>
         </dependency>
 
-        <!--webservice 构建需要-->
+<!--        webservice 构建需要-->
         <dependency>
             <groupId>com.sun.xml.ws</groupId>
             <artifactId>jaxws-ri</artifactId>
@@ -55,6 +57,20 @@
             <groupId>javax.xml.ws</groupId>
             <artifactId>jaxws-api</artifactId>
             <version>2.3.1</version>
+        </dependency>
+        
+        <!-- HTTP客户端 -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>${httpclient.version}</version>
+        </dependency>
+        
+        <!-- JSON处理 -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.13.4.2</version>
         </dependency>
     </dependencies>
 </project>
